@@ -14,7 +14,7 @@ Before submission, run eslint using `npm run lint` and ensure there are no warni
 
 Make sure to complete the checklist in `notes.md`. Additionally, this is a place to leave any notes/comments [eg. feedback about the assessment, if you didn't have enough time due to personal reasons etc.].
 
-To submit, share the link to your repository in your application. If you have used any env variables, make sure you copy and paste your .env file into the application! We will want to test submissions locally and it is better not to publicly commit env variables.
+To submit, share the link to your repository in your application. If you have used any env variables, make sure you copy and paste your .env file into the application! Additionally PLEASE WHITELIST ALL IP ADDRESSES in your MongoDB Cluster. We will want to test submissions locally and it is better not to publicly commit env variables.
 
 ## Scenario ❤️
 
