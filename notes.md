@@ -1,5 +1,5 @@
 # Project Completion Notes
-
+### Make sure to `npm i` at root level before everything. I added a lot of wierd dependencies.
 ## ✅ Completed Tasks
 
 ### Backend Requirements
@@ -28,7 +28,7 @@
 - [x] Comprehensive error handling
 - [x] Loading states and user feedback
 
-## 🔧 Technical Implementation
+## 🔧 Technical Implementation (Summarized with AI)
 
 ### Database Schema
 - **Collection**: `requests`
@@ -112,4 +112,4 @@ This project demonstrates full-stack development capabilities with:
 
 
 
-Everything is up and works fine :))))!
+#!~Everything is up and works fine :) Go try it out! #!~
