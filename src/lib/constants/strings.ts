@@ -1,4 +1,4 @@
 export const NP = {
-  NAME: "Crisis Compass",
-  TAGLINE: "Your direction in times of crisis.",
+  NAME: "Dev Compass",
+  TAGLINE: "Built with care by Terry.",
 };

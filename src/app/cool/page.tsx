@@ -98,9 +98,8 @@ export default function CoolPage() {
           <div className="bg-gray-50 rounded-xl p-6 mb-8 animate-fade-in">
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">💡 Why I&apos;m Excited About This Project</h3>
             <p className="text-gray-700 text-lg leading-relaxed">
-              Building an admin portal for Crisis Corner is exactly the kind of meaningful work that drives me. 
-              Creating tools that help organizations manage critical resources during natural disasters combines 
-              technical excellence with real-world impact. I&apos;m excited to demonstrate my full-stack capabilities 
+              Building tools for Bits of Good is exactly the kind of meaningful work that drives me. 
+              Creating tools that help organizations manage resources, I&apos;m excited to demonstrate my full-stack capabilities 
               while contributing to a solution that could make a difference in people&apos;s lives.
             </p>
           </div>

@@ -4,6 +4,7 @@ interface StatusTabsProps {
   activeStatus: string | null;
   onStatusChange: (status: string | null) => void;
   counts: Record<string, number>;
+  totalCount: number;
 }
 
 const statusOptions = [
@@ -14,13 +15,13 @@ const statusOptions = [
   { value: "rejected", label: "Rejected", color: "bg-red-100 text-red-800" },
 ];
 
-export default function StatusTabs({ activeStatus, onStatusChange, counts }: StatusTabsProps) {
+export default function StatusTabs({ activeStatus, onStatusChange, counts, totalCount }: StatusTabsProps) {
   return (
     <div className="flex flex-wrap gap-2 mb-6">
       {statusOptions.map((status) => {
         const isActive = (activeStatus === null && status.value === "all") || activeStatus === status.value;
-        const count = status.value === "all" 
-          ? Object.values(counts).reduce((sum, count) => sum + count, 0)
+        const count = status.value === "all"
+          ? totalCount
           : counts[status.value] || 0;
 
         return (

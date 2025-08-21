@@ -282,6 +282,7 @@ export default function AdminPage() {
           activeStatus={activeStatus}
           onStatusChange={handleStatusChange}
           counts={statusCounts}
+          totalCount={statusCounts.total || requests.length}
         />
 
         {/* Batch Operations */}
